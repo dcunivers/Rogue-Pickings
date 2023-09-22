@@ -1,0 +1,167 @@
+/****** BASE STYLES ******/
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+p {
+    line-height: 36px;
+}
+
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/***** HEADER ******/
+
+header h1 {
+    width: 300px;
+    float: left;
+    margin: 0;
+    padding: 36px 0;
+}
+
+header h1 span {
+    color: #45610E;
+}
+
+header nav {
+    float: right;
+    padding: 44px 0;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+header nav ul li {
+    font-weight: 700;
+    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color:#45610E;
+}
+
+/***** SECTIONS *****/
+
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+	clear: both;
+}
+.main-image {
+    height: auto;
+    float: left;
+}
+.main-image img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+.main-title {
+    height: auto;
+    float: left;
+}
+.main-title h2 {
+    padding: 5px 0;
+    color: #45610E;
+}
+.main-title p {
+    padding: 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	float: left;
+    box-sizing: border-box;
+    padding: 0 40px;
+}
+.section-one {
+    width: 350px;
+}
+
+.section-two {
+    width: 500px;
+    border-left: 5px solid #EEE;
+    border-right: 5px solid #EEE;
+}
+
+.section-three {
+    width: 350px;
+}
+.menu {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.menu li {
+    color:#45610E;
+    line-height: 36px;
+}
+
+.bottom-section, 
+.content-wrapper {
+    border-top: 5px solid #EEE;
+    border-bottom: 5px solid #EEE;
+}
+
+.bottom-section h3 {
+    margin: 30px 0;
+}
+
+/***** FOOTER *****/
+
+footer {
+    clear: both;
+    text-align: center;
+    margin-top: 8px;
+}
+
+footer span {
+    font-family: 'Galada', cursive;
+    color: #77a466;
+    text-transform: lowercase;
+    font-size: 14px;
+}
